@@ -1,0 +1,10 @@
+ for (int a = 1; a < 3; a++)
+            {
+                for (int c = 1; c <= 9; c++)
+                {
+                    int b = 10 - a;
+                    int A = 10 * a + a; int B = 10 * b + b; int C = 10 * c + c; int D = 100 * a + 10 * b + c;
+                    if (A + B + C == D)
+                    { Console.WriteLine("a:{0},\tb:{1},\tc:{2}", a, b, c); }
+                }
+            }
